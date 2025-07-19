@@ -1,0 +1,201 @@
+:root {
+    --primary-color: #921224;
+    --secondary-color: #BCE0DA;
+    --accent-color: #2A9D8F;
+    --text-color: #333;
+    --bg-light: #f9f9f9;
+    --white: #fff;
+    --gray: #888;
+    --shadow: 0 4px 12px rgba(0,0,0,0.08);
+    --radius: 10px;
+    --transition: 0.3s ease;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: var(--bg-light);
+    color: var(--text-color);
+}
+
+.main-wrapper {
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+    padding: 30px;
+}
+
+.idea-header {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+
+.idea-header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.idea-header .badge {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    border-radius: 20px;
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.detail-box {
+    margin: 20px 0;
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+.detail-box p {
+    margin-bottom: 15px;
+}
+
+.attachment {
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.attachment i {
+    margin-right: 5px;
+}
+
+.actions {
+    margin-top: 30px;
+}
+
+.actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--radius);
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color var(--transition);
+}
+
+.actions .danger {
+    background-color: #f44336;
+    color: var(--white);
+}
+
+.actions .danger:hover {
+    background-color: #d32f2f;
+}
+
+.actions button:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.collaborators {
+    margin-top: 20px;
+    background-color: var(--bg-light);
+    padding: 15px;
+    border-radius: var(--radius);
+    border: 1px solid #ddd;
+}
+
+.collaborators h3 {
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.collaborator-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.collaborator-badge {
+    background-color: var(--white);
+    border: 1px solid var(--primary-color);
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: var(--primary-color);
+}
+
+.join-button {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 10px 18px;
+    border: none;
+    border-radius: var(--radius);
+    font-weight: bold;
+    margin-top: 15px;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.join-button:hover {
+    background-color: var(--accent-color);
+}
+
+/* Comments */
+.comments {
+    margin-top: 40px;
+    border-top: 1px solid #ddd;
+    padding-top: 30px;
+}
+
+.comments h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.comments form input,
+.comments form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: var(--radius);
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.comments form button {
+    margin-top: 12px;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: background-color var(--transition);
+}
+
+.comments form button:hover {
+    background-color: var(--accent-color);
+}
+
+.comments ul {
+    list-style: none;
+    padding: 0;
+}
+
+.comments li {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 15px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    border-left: 4px solid var(--primary-color);
+}
+
+.comments li strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.comments li small {
+    font-size: 0.8rem;
+    color: var(--gray);
+}

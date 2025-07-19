@@ -1,0 +1,45 @@
+/* View Invitations styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  background: #f9f9f9;
+  border-left: 5px solid #007BFF;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+form button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button[value="reject"] {
+  background-color: #dc3545;
+}
+
+form button:hover {
+  opacity: 0.9;
+}
+
+.message-box {
+  background-color: #e9ffe8;
+  border: 1px solid #28a745;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
