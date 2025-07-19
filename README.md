@@ -25,11 +25,6 @@ IdeaHub is a collaborative web-based idea management system where users can subm
 
 ---
 
-## 📁 Project Structure
-
-
----
-
 ## 🚀 Getting Started
 
 ### Local Setup (XAMPP)
@@ -72,17 +67,4 @@ IdeaHub is a collaborative web-based idea management system where users can subm
 
 ---
 
-## 📄 License
-
-This project was developed as part of my academic coursework and is free to use or adapt for educational purposes. Attribution appreciated.
-
----
-
-## 👩🏻‍💻 Author
-
-**Nur Aina Syafina**  
-Bachelor’s Degree in Computer Science  
-[GitHub Profile](https://github.com/ainaasyafina) *(update if different)*
-
----
 
