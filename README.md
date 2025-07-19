@@ -48,16 +48,6 @@ IdeaHub is a collaborative web-based idea management system where users can subm
 
 ---
 
-## 🖼️ Screenshots
-
-> *(Replace these with your actual screenshot URLs)*
-
-![Dashboard](https://via.placeholder.com/600x300?text=Dashboard+Screenshot)
-![Idea Submission](https://via.placeholder.com/600x300?text=Idea+Form+Screenshot)
-![Kanban View](https://via.placeholder.com/600x300?text=Kanban+Board+Screenshot)
-
----
-
 ## 🗃️ Database Overview
 
 - `users` – Stores registered users
